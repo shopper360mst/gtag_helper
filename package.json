@@ -1,0 +1,22 @@
+{
+  "name": "@shopper360mst/gtag_helper",
+  "version": "1.0.0",
+  "description": "Gtag helper",
+  "main": "gtag_helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shopper360mst/gtag_helper.git"
+  },
+  "keywords": [
+    "gtag"
+  ],
+  "author": "Shopper360",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shopper360mst/gtag_helper/issues"
+  },
+  "homepage": "https://github.com/shopper360mst/gtag_helper#readme"
+}
