@@ -8,6 +8,11 @@ export default class GtagHelper {
     static setGoogleTag(location) {
         if (gtag) {
             gtag('event', 'page_view', {"page_title": location,});
+        }        
+    }
+    static setMatomoTag(location) {
+        if (window._mtm) {
+            window._mtm.push({'event': location});
         }
     }
-}
+} 
