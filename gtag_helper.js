@@ -6,9 +6,13 @@ export default class GtagHelper {
      *      GtagHelper.setGoogleTag('Login Popup');
      */
     static setGoogleTag(location) {
-        if (gtag) {
-            gtag('event', 'page_view', {"page_title": location,});
-        }        
+        try {
+            if (gtag) {
+                gtag('event', 'page_view', {"page_title": location,});
+            }    
+        } catch(e) {
+            console.log(e);
+        }
     }
     static setMatomoTag(location) {
         if (window._mtm) {

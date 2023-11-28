@@ -1,6 +1,6 @@
 {
   "name": "@shopper360mst/gtag_helper",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Gtag helper",
   "main": "gtag_helper.js",
   "scripts": {
